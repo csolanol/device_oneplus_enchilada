@@ -24,3 +24,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
+
+# Inherit from oppo-common
+-include device/oneplus/enchilada/OppoCommon/BoardConfigCommon.mk)   
